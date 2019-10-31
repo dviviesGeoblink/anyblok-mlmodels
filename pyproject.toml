@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blok-mlmodels"
+version = "0.1.0"
+description = "A Blok that allows to add/update/delete/use machine learning models"
+authors = ["Denis Viviès <legnonpi@gmail.com>"]
+license = "MPL-2.0"
+packages = [
+    { include = "anyblok_mlmodels" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
