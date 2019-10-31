@@ -5,7 +5,7 @@ description = "A Blok that allows to add/update/delete/use machine learning mode
 authors = ["Denis Viviès <legnonpi@gmail.com>"]
 license = "MPL-2.0"
 packages = [
-    { include = "anyblok_mlmodels" },
+    { include = "anyblok_mlmodels" }
 ]
 
 [tool.poetry.dependencies]
