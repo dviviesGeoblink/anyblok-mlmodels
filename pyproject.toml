@@ -10,6 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.5"
+anyblok = "^0.22.5"
 
 [tool.poetry.dev-dependencies]
 
