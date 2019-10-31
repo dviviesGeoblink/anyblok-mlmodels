@@ -13,6 +13,9 @@ python = "^3.5"
 
 [tool.poetry.dev-dependencies]
 
+[tool.poetry.scripts]
+my-cli = 'anyblok_mlmodels.bloks.mlmodels:MlModelsBlok'
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
