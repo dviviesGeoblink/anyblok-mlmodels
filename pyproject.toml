@@ -18,6 +18,7 @@ anyblok_mixins = "^1.0.0"
 pytest = "^5.2"
 pytest-env = "^0.6.2"
 freezegun = "^0.3.12"
+scikit-learn = "^0.21.3"
 
 [tool.poetry.scripts]
 bloks = 'mlmodels=anyblok_mlmodels.bloks.mlmodels:MachineLearningModelBlok'
